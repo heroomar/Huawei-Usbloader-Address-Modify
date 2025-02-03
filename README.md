@@ -3,6 +3,7 @@ It loads usb.bin (usbloader) as inti and input two addresses to modify parts acc
 
 For ex.
 usddload.exe 0x00000000 0x57700000
+
 raminit    00000000     4196
 
 usbboot    57700000  7088616
