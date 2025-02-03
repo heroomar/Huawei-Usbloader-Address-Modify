@@ -3,13 +3,12 @@ It loads usb.bin (usbloader) as inti and input two addresses to modify parts acc
 
 For ex.
 usddload.exe 0x00000000 0x57700000
+raminit    00000000     4196
 
-Umer Zaki, 2025 Tool to change the address of usbloader☺
- Part       address    size
-------------------------------------------
- raminit    00000000     4196
- usbboot    57700000  7088616
+usbboot    57700000  7088616
+
 New raminit address 0x00000000
+
 New usbboot address 0x57700000
 
 it generate out.bin with new addresses 
